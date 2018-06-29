@@ -54,6 +54,7 @@
     <target name="init">
         <!-- Create the build directory structure used by compile -->
         <mkdir dir="${build}"/>
+        <mkdir dir="work/log"/>
     </target>
    
     <target name="compile" depends="init" description="compile the source">
